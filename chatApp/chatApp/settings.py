@@ -70,6 +70,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'chatApp.wsgi.application'
+ASGI_APPLICATION="chatApp.routing.application"
 
 
 # Database
